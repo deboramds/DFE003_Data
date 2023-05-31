@@ -1,0 +1,16 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 28%;
+  border: 2px solid blueviolet;
+}
