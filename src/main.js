@@ -26,11 +26,9 @@ data.forEach(function(item){
   animes.innerHTML +=   
   `
     <div class="cards">
-     <div>
-        <p>${item.anime}</p>
-        <p>${item.character}</p>
-        <addr>${item.quote}</addr>
-      </div>
+      <h1>${item.anime}</h1>
+      <p>${item.character}</p>
+      <addr>${item.quote}</addr>
     </div>
   `
 })
