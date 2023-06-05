@@ -20,10 +20,10 @@ function todos(data){
   })
 }
 */
-const animes =document.getElementById("animes_one_piece")
+const animes = document.getElementById("animes_one_piece")
 
 data.forEach(function(item){
-  animes.innerHTML +=   
+  animes.innerHTML +=
   `
     <div class="cards">
       <h1>${item.anime}</h1>

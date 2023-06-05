@@ -5,16 +5,19 @@
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
 }
+
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2%;
 }
+
 .container section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .cards {
   align-items: center;
   text-align: center;
@@ -50,10 +53,18 @@ h1:after{
 
 @media screen and (max-width: 900px) {
   .cards {
-    width: 44%;
+    width: 31%;
     align-items: center;
     margin: 1rem auto;
+    padding: 1rem;
   }
-  
+
+}
+
+@media screen and (max-width: 760px) {
+  .cards {
+    width: 40%;
+  }
+
 }
 
