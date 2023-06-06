@@ -1,4 +1,4 @@
-import data from './data/animes/one_piece_quote.json' assert {type: "json"}
+import data from './data/animes/one_piece_quote.json' assert { type: "json" }
 /*
 const animes = data
 
@@ -28,6 +28,7 @@ data.forEach(function(item){
     <div class="cards">
       <h1>${item.anime}</h1>
       <p>${item.character}</p>
+      <img src="${item.img}">
       <addr>${item.quote}</addr>
     </div>
   `
