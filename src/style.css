@@ -12,6 +12,42 @@
   padding: 2%;
 }
 
+.background{
+  background-image: center;
+  height: 32vh;
+  max-width: 100%;
+}
+
+/* main */
+main h1{
+  text-align: center;
+  font-size: 32px;
+  color: #252323;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.main-div-item{
+  text-align: center;
+  background-color: rgb(113, 108, 212) ;
+  color: #fff;
+  flex: 1;
+  margin: 1rem ;
+  padding: 2rem;
+}
+.main-div-item h3{
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+
 .container section {
   display: flex;
   justify-content: space-between;
@@ -38,7 +74,7 @@
 
 h1:after{
   content: "";
-  height: 4px;
+  height: 6px;
   width: 40px;
   display: block;
   margin: 12px auto;
