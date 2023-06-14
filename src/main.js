@@ -3,6 +3,7 @@ import data from './data/animes/one_piece_quote.json' assert {
 }
 
 const animes = document.getElementById("animes_one_piece")
+const searchName = document.getElementById("search");
 
 data.forEach(function (item) {
   animes.innerHTML +=
@@ -19,7 +20,6 @@ data.forEach(function (item) {
         <p>${item.character}</p>
         <addr>${item.quote}</addr>
       </div>
-     </div>
     </div>
-      `
+  </div>`
 })
